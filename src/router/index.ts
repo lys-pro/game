@@ -1,7 +1,7 @@
 /*
  * @Author: 李延送
  * @Date: 2022-06-15 17:35:20
- * @LastEditTime: 2022-06-22 16:43:53
+ * @LastEditTime: 2022-06-29 15:46:24
  * @Description: Do not edithome
  */
 import Vue from 'vue'
@@ -34,6 +34,11 @@ const routes: Array<RouteConfig> = [
         path: '/jzchess',
         name: 'jzchess',
         component: () => import('@/views/jzchess/index.vue')
+    },
+    {
+        path: '/stonechess',
+        name: 'stonechess',
+        component: () => import('@/views/stonechess/index.vue')
     }
 ]
 

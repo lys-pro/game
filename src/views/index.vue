@@ -1,7 +1,7 @@
 <!--
  * @Author: 李延送
  * @Date: 2022-06-15 17:36:53
- * @LastEditTime: 2022-06-22 16:42:32
+ * @LastEditTime: 2022-06-29 15:46:32
  * @Description: 五 子 棋
 -->
 <template>
@@ -54,7 +54,7 @@ export default class extends Vue {
                 this.$router.push({ name: "sokoban" });
                 break;
             case 3:
-                this.$router.push({ name: "sokoban" });
+                this.$router.push({ name: "stonechess" });
                 break;
             case 4:
                 this.$router.push({ name: "jzchess" });
