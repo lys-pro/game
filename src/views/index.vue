@@ -1,7 +1,7 @@
 <!--
  * @Author: 李延送
  * @Date: 2022-06-15 17:36:53
- * @LastEditTime: 2022-06-29 15:46:32
+ * @LastEditTime: 2022-06-29 17:58:10
  * @Description: 五 子 棋
 -->
 <template>
@@ -43,6 +43,11 @@ export default class extends Vue {
             name: "井 子 棋",
             id: 4,
             bg: "bg4"
+        },
+        {
+            name: "贪 吃 蛇",
+            id: 5,
+            bg: "bg5"
         }
     ];
     private routePage(num: number) {
