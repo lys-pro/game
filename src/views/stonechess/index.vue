@@ -24,7 +24,13 @@ import { Component, Vue } from "vue-property-decorator";
 @Component({
     name: "stonechess"
 })
-export default class extends Vue {}
+export default class extends Vue {
+    private muCanv:any = {}
+    private ctx:any = {}
+
+    // 初始化
+    init() {}
+}
 </script>
 
 <style scoped lang="scss">
